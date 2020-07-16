@@ -8,7 +8,8 @@ Juan Pablo Villegas
 
 [Instagram](https://www.instagram.com/villegas__jp/?hl=es-la)
 
-##Secciones
+
+## Secciones
 
 * Login
 * Registro
@@ -16,6 +17,6 @@ Juan Pablo Villegas
 * Galeria (producto)
 * Contacto
 
-#Wireframes
+# Wireframes
 
 En esta [seccion]() se encuentran los wireframes del microsito
