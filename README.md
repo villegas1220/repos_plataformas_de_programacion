@@ -19,4 +19,4 @@ Juan Pablo Villegas
 
 # Wireframes
 
-En esta [seccion]() se encuentran los wireframes del microsito
+En esta [seccion](https://github.com/villegas1220/repos_plataformas_de_programacion/tree/master/wireframes) se encuentran los wireframes del microsito
