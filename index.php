@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="#" />      
     <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">  
-	<link rel="stylesheet" href="C:\laragon\www\css\main.css">
+	  <link rel="stylesheet" href="...\css\main.css">
     <title>Ejemplos</title>  
   </head>
   <body>
