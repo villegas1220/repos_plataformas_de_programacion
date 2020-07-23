@@ -1,9 +1,17 @@
-var opt_1 = new Array ("-", "Barranquilla", "Candelaria", "Tubara", "Santa Lucia","Malambo","...");
-var opt_2 = new Array ("-", "Medellin", "Marinilla", "Santa Rosa de Osos","Toledo","Urrao","Jardin", "...");
-var opt_3 = new Array ("-", "Google Chrome", "Linux", "opera", "...");
-var opt_4 = new Array ("-", "MSI", "ASUS", "GIGABYTE", "...");
-					
-function cambia(){
+function change(departamento, ciudad){
+    departamento = document.getElementById(departamento);
+    ciudad = document.getElementById(ciudad);
+    ciudad.value ="";
+    ciudad.innerHTML = "";
+    if(departamento.value == "1"){
+    var optionArray = ["|","Barranquilla","Baranoa","Candelaria","Campo de la cruz"];
+};
 
-alert('Hola');					
+ for(option = 0;option < optionArray.length; option++){
+    var pair = optionArray[option].split("|");
+    var newOption = document.createElement("option");
+    newOption.value = pair[0];
+    newOption.innerHTML = pair[1];
+    ciudad.options.add(newOption);
+  };    
 }
