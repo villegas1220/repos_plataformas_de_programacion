@@ -3,8 +3,8 @@ $nombre = $_POST['nombre'];
 $usuario = $_POST['usuario'];
 $contraseña = $_POST['contraseña'];
 $correo = $_POST['correo'];
-$departamento = $_POST['departamento'];
-$ciudad = $_POST['ciudad'];
+$departamento = $_POST['select-departamentos'];
+$ciudad = $_POST['select-ciudad'];
 
 echo "Recibimos... <br>";
 echo "Nombre: ".$nombre."<br>";
