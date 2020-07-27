@@ -22,23 +22,23 @@
                   <div class="form-row">
                     <div class="col-md-4 mb-3">
                       <label for="nombre">Nombre</label>
-                      <input name="nombre" type="text" class="form-control" id="nombre" placeholder="" value="" required>
+                      <input name="nombre" type="text" class="form-control" id="nombre"  minlength="8" maxlength="16" placeholder="" value="" required>
                       <div class="valid-feedback">¡Ok válido!</div>
-                      <div class="invalid-feedback">Complete el campo.</div>    
+                      <div class="invalid-feedback">Complete el campo, 8-16 caracteres.</div>    
                     </div>
                     <div class="col-md-4 mb-3">
                       <label for="usuario">Nombre de usuario</label>
-                      <input name="usuario" type="text" class="form-control" id="usuario" placeholder="" value="" required>
+                      <input name="usuario" type="text" class="form-control" id="usuario" minlength="8" maxlength="16" placeholder="" value="" required>
                       <div class="valid-feedback">¡Ok válido!</div>
-                      <div class="invalid-feedback">Complete el campo.</div>   
+                      <div class="invalid-feedback">Complete el campo, 8-16 caracteres.</div>   
                     </div>
                   </div>
                   <div class="form-row">
                     <div class="col-md-4 mb-3">
                       <label for="contraseña">Contraseña</label>
-                      <input name="contraseña" type="password" class="form-control" id="contraseña" placeholder="" required>
+                      <input name="contraseña" type="password" class="form-control" id="contraseña" minlength="8" maxlength="16" placeholder="" required>
                       <div class="valid-feedback">¡Ok válido!</div>
-                      <div class="invalid-feedback">Complete el campo.</div>   
+                      <div class="invalid-feedback">Complete el campo, 8-16 caracteres.</div>   
                     </div>
                     <div class="col-md-4 mb-3">
                       <label for="correo">Correo</label>
@@ -79,7 +79,14 @@
                       <div class="valid-feedback">¡Aceptado!</div>
                     </div>
                   </div>
-                  <button class="btn btn-danger" type="submit">Enviar</button>
+                  <div class="form-row">
+                    <div class=" col-md-4 mb-3">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                    <div class=" col-md-4 mb-3">
+                        <button onclick="location.href='login.php'">Ya tengo cuenta</button>
+                    </div>
+                  </div>
                 </form>    
         </div>   
     </div>
