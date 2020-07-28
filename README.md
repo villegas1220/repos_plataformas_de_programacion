@@ -1,10 +1,10 @@
 # Micrositio
 
 Descripción...
-Dedicado a la visualización de productos (frutas) con su respectivo precio actual x Kilo
-Ademas de una pequeña descripcion, ya sea de su forma o beneficios.
-Cuenta con un formulario de registro y otro de login.
-Y posee su menu principal.
+* Dedicado a la visualización de productos (frutas) con su respectivo precio actual x Kilo
+* Ademas de una pequeña descripcion, ya sea de su forma o beneficios.
+* Cuenta con un formulario de registro y otro de login.
+* Y posee su menu principal.
 
 ## Autor
 
