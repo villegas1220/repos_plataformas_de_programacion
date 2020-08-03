@@ -1,20 +1,25 @@
-const frm = document.getElementById("form2");
+let frm;
+
+window.onload = ()=>{
+  frm = document.getElementById("form2");
+}
 
 function procesarLogin(){
   let usuario = localStorage.getItem("dato");
-  if(usuario){
-    fetch('../scripts/script.php', {
+  //if(usuario){
+    fetch('./scripts/script.php', {
     method: 'post',
     body: new FormData(frm)
     }).then(function(response) {
       return response.json();
     }).then(function(json){
-      validarLogin(json);
+      //validarLogin(json);
+      console.log("Test!");
     }).catch(function(err) {
     // Error :(
       console.log(err);
     });
-  }
+  //}
 }
 
  function validarLogin(json){

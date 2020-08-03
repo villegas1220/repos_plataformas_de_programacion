@@ -54,6 +54,7 @@ function Cambio(){
         select_ciudad.options.add(nuevaOpcion);
     }
 }
+
 //VALIDACION DE BOOTSTRAP
 (function() {
   'use strict';
