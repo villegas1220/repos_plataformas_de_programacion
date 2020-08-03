@@ -18,7 +18,7 @@
           <div class="card shadow-lg p-3 mb-5 bg-white ">
             <div class="card-header bg-primary">Login</div>
             <div class="card-body">
-              <form id="form2" action="procesar.php" method="post" class="needs-validation" novalidate>
+              <form id="form2" method="post" class="needs-validation" novalidate>
                 <div class="form-row">
                   <div class="col-md-4 mb-3">
                     <label for="usuario">Usuario</label>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="form row">
       			      <div class=" col-md-4 mb-3">
-      				      <button class="btnIng btn-primary" type="submit">Ingresar</button>
+      				      <button class="btnIng btn-primary" type="submit" onclick="procesarLogin()">Ingresar</button>
       			      </div>
   				        <div class=" col-md-4 mb-3">
                 		<a href="register.html">Registrarme</a>
@@ -48,6 +48,7 @@
       </div>                  
     </div>
     <script src="js/vendor/bootstrap.min.js"></script>	
-    <script type="text/javascript" src="js/login.js"></script> 
+    <script src="js/validacionLogin.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

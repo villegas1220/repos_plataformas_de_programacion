@@ -3,6 +3,7 @@ var dato, nombre, contrasena, correo, usuario;
 window.onload = init;
 
 function init(){
+    frm = document.getElementById("form1");
     select_departamentos = document.getElementById("select-departamentos");
     select_ciudad = document.getElementById("select-ciudad");
     nombre=document.getElementById("nombre");
@@ -43,6 +44,7 @@ function guardar(){
   dato.push(user);
   str = JSON.stringify(dato);
   localStorage.setItem("dato", str);
+  location.href="login.html";
   }
 }
 function asignar(){
