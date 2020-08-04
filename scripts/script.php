@@ -9,6 +9,6 @@
 		$dato["select-ciudad"]=$_POST["select-ciudad"];
 		$dato["correo"]=$_POST["correo"];
 	}
-	$dato["contrasena"]= md5($_POST['contrasena'].$salt);
-	echo json_encode($dato)
+	$dato["contrasenal"]= md5($_POST['contrasenal'].$salt);
+	echo json_encode($dato);
 ?>

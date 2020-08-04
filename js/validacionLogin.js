@@ -13,11 +13,11 @@ function procesarLogin(){
     }).then(function(response) {
       return response.json();
     }).then(function(json){
-      //validarLogin(json);
+      validarLogin(json);
       console.log("Test!");
     }).catch(function(err) {
     // Error :(
-      console.log(err);
+      alert(err);
     });
   //}
 }
