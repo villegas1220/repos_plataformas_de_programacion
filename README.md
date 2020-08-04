@@ -15,11 +15,11 @@ Juan Pablo Villegas
 
 ## Secciones
 
-* Login
-* Registro
-* Contenido
-* Galeria (producto)
-* Contacto
+* [Login](https://github.com/villegas1220/repos_plataformas_de_programacion/blob/master/login.html)
+* [Registro](https://github.com/villegas1220/repos_plataformas_de_programacion/blob/master/register.html)
+* [Contenido](https://github.com/villegas1220/repos_plataformas_de_programacion/blob/master/contenido.html)
+* [Galeria (producto)](https://github.com/villegas1220/repos_plataformas_de_programacion/blob/master/index.html)
+* [Contacto](https://github.com/villegas1220/repos_plataformas_de_programacion/blob/master/contacto.html)
 
 # Wireframes
 
